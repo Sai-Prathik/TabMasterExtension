@@ -1,0 +1,79 @@
+body{
+ padding: 10px;
+border-radius: 15px;
+width: 350px; 
+}
+
+.wrp{
+ 
+    height: 460px;
+}
+
+.tabs-wrp{ 
+    
+    height: 350px;
+    max-height: 350px;
+    overflow-y: scroll;
+    border-radius: 0 0 10px 10px;
+    background-color: lightgray;
+    box-shadow: inset 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    
+}::-webkit-scrollbar {
+    background: none;
+    width: 7px;
+  }::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: gray;
+    border-radius: 10px;
+    height: 20%;
+  }
+
+.favicon{
+    margin-right: 8px;
+}
+
+.title-text{
+    max-width: 60%;
+}
+
+.itemwrp{
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.status_sec{
+    width: 30%;
+}
+
+ 
+.active_status{
+    height: 10px;
+    width: 10px;
+    border: solid #FF3131;
+    border-radius: 50%;
+    background-color: #FF3131;
+    box-shadow: 0 0 12px #FF3131;
+}
+
+.active_status.active{
+    border: solid #39FF14; 
+    background-color: #39FF14;
+    box-shadow: 0 0 12px #39FF14;
+}
+
+#searchtabs{
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 5px 0 rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.tab-btn-l{
+    border-radius:10px 0 0 0 ; 
+
+}
+
+.tab-btn-r{
+    border-radius:0 10px 0 0 ; 
+}

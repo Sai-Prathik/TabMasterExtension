@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="rounded">
+    <div class="wrp col-12">
+    <h3>TabMaster</h3> 
+    <div class="d-flex flex-row mb-3">
+        <input placeholder="Search" id="searchtabs" class="px-2 border-0"/>
+    </div>
+    <div class="d-flex col-12 border-1">
+        <button class="w-50 tab-btn-l tab-btn border-right border-0" data-slide-to="slide-1" class="active " >Tabs<span id="tablength"></span></button>
+        <button class="w-50 tab-btn-r tab-btn border-left border-0" data-slide-to="slide-2">Domains<span id="domainlength"></span></button>
+
+    </div>
+    <div id="tab-wrp" class=" carousel slide col-12  p-2 tabs-wrp  border-1 border-1" data-ride="carousel">
+        <div class="carousel-inner">
+      <div id="tab-wrp1" class="carousel-item slide-1 active"></div>
+      <div id="tab-wrp2" class="carousel-item slide-2 "></div>
+    </div>
+
+    </div>
+</div>
+
+    <script src="./node_modules/lodash/lodash.min.js"></script> 
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/lit-html/lit-html.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
